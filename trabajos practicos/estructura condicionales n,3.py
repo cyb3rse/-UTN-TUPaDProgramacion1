@@ -4,7 +4,8 @@ edad=(input("ingrese, para confirmar su edad:"))
  
 if Edad<18:
   print("usted es menor de edad no puede ingresar")
-else print("Es mayor de edad")
+else:
+ print("Es mayor de edad")
 
 #PUNTO DOS
 nota=int(input("ingrese su nota para calificarla:"))
